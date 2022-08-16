@@ -3,7 +3,7 @@ vmess_req() {
     user=$(tr </dev/urandom -dc a-zA-Z0-9 | head -c8)
     echo -e "[1] Digi"
     echo -e "[2] Maxis"
-	echo -e "[2] umobile"
+    echo -e "[3] umobile"
     echo -ne "Telco ? : "
     read telco
     case "$telco" in
