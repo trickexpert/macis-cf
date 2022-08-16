@@ -13,9 +13,9 @@ vmess_req() {
     2)
         kumbang='who.int'
         ;;
-	3)
+    3)
         kumbang='mm.net.my'
-		;;
+        ;;
     *)
         vmess_req
         ;;
@@ -61,9 +61,9 @@ vless_req() {
     2)
         kumbang='who.int'
         ;;
-	3)
+    3)
         kumbang='mm.net.my'
-		;;
+	;;
     *)
         vless_req
         ;;
